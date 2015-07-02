@@ -14,7 +14,7 @@
 use Lucknerjb\Shared\MyLog;
 
 MyLog::log('my content');
-die;
+//die;
 
 Route::get('/', function () {
     return view('welcome');
