@@ -11,6 +11,11 @@
 |
 */
 
+use Lucknerjb\Shared\MyLog;
+
+MyLog::log('my content');
+die;
+
 Route::get('/', function () {
     return view('welcome');
 });

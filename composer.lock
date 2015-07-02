@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c6026b96e6fa11a641b51a6ba976f5e",
+    "hash": "b44fb2aa2b957cf31abded4d19542c9f",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -363,16 +363,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.5",
+            "version": "v5.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "25d872ec1945b30083f3e348039c380307b42d5e"
+                "reference": "ef87627cc3a2ecb866214c5be593781016cd43b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/25d872ec1945b30083f3e348039c380307b42d5e",
-                "reference": "25d872ec1945b30083f3e348039c380307b42d5e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ef87627cc3a2ecb866214c5be593781016cd43b1",
+                "reference": "ef87627cc3a2ecb866214c5be593781016cd43b1",
                 "shasum": ""
             },
             "require": {
@@ -487,7 +487,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-07-02 02:28:22"
+            "time": "2015-06-30 20:45:09"
         },
         {
             "name": "league/flysystem",
@@ -572,6 +572,39 @@
                 "storage"
             ],
             "time": "2015-06-07 21:27:37"
+        },
+        {
+            "name": "lucknerjb/l5-shared",
+            "version": "0.0.6",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:lucknerjb/l5-shared.git",
+                "reference": "a85e749d7bdb8325230bd3e55816a448142b34b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lucknerjb/l5-shared/zipball/a85e749d7bdb8325230bd3e55816a448142b34b2",
+                "reference": "a85e749d7bdb8325230bd3e55816a448142b34b2",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.6"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lucknerjb\\Shared\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Luckner Jr",
+                    "email": "lucknerjb@gmail.com"
+                }
+            ],
+            "time": "2015-07-02 19:39:32"
         },
         {
             "name": "monolog/monolog",
